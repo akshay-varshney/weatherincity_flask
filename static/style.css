@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.home {
+    margin: auto;
+    color: rgb(6, 2, 26);
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 40px;
+    background-size: 300px 100px;   
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+    width: 300px;
+    border: 3px solid #006ecc;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: #ad1c1c;
+}
+
+.searchTerm:focus{
+  color: rgb(20, 20, 179);
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    margin: auto;
+    width: 70%;
+    padding-top: 198px;
+    padding-right: 129px;
+    padding-bottom: 110px;
+    padding-left: 260px;
+        
+}
+
+.submit {
+    margin: auto;
+}
+
+.media-content {
+    margin:auto;
+    text-align: center;
+    
+}
